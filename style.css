@@ -39,7 +39,6 @@ section {
 }
 .item-section {
     width: 325px;
-    height: 425px;
     display: flex;
     flex-direction: column;
     padding: 42px 42px;
@@ -109,4 +108,34 @@ footer {
         -webkit-background-clip: text;
         color: transparent;
     }
+}
+
+/*--------------- TABLE DESIGN --------------------*/
+
+@media (min-width: 700px) {
+    .item-section {
+        width: 550px;
+    }
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
+/*--------------- DESKTOP DESIGN ------------------*/
+
+@media (min-width: 1000px) {
+    section {
+        flex-direction: row;
+        margin-top: 85px;
+    }
+    .item-section {
+        width: 305px;
+        height: 500px;
+        position: relative;
+
+        & button {
+            position: absolute;
+            bottom: 46px;
+        }
+    }   
 }
