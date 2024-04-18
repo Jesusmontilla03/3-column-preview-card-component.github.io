@@ -26,7 +26,6 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    background-color: var(--Very-light-gray-background-headings-buttons);
 }
 
 /*--------------- MOBILE DESIGN ----------------*/
@@ -132,14 +131,11 @@ footer {
     .item-section {
         width: 305px;
         height: 500px;
-        padding: 52px 44px;
-        justify-content: space-between;
-        
-        & h2 {
-            margin-top: -12px;
-        }
-        & p {
-            margin-top: -36px;
+        position: relative;
+
+        & button {
+            position: absolute;
+            bottom: 46px;
         }
     }   
 }
