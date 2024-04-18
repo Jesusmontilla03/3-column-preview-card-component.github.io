@@ -127,7 +127,7 @@ footer {
 @media (min-width: 1000px) {
     section {
         flex-direction: row;
-        margin-top: 155px;
+        margin-top: 86px;
     }
     .item-section {
         width: 305px;
